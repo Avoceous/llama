@@ -56,7 +56,7 @@ class Llama:
         max_seq_len: int,
         max_batch_size: int,
         model_parallel_size: Optional[int] = None,
-        seed: int = 1,
+        seed: int = 0,
     ) -> "Llama":
         """
         Build a Llama instance by initializing and loading a pre-trained model.
